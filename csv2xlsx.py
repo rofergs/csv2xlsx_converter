@@ -1,4 +1,4 @@
-# CSV2EXCEL Converter
+# csv2xlsx_converter
 # Description: A simple script which allows command line conversion of .csv files to the .xlsx format.
 # Note: Must be in the same folder as the .csv, output .xlsx file to the same folder.
 # Usage in CLI: >>> python csv2xlsx.py -i *CSV_FILE" -d *DELIMETER* -o *XLSX_FILE*
