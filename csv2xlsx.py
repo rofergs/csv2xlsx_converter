@@ -1,23 +1,7 @@
 # CSV2EXCEL Converter
-# Author: Robin Ferguson
 # Description: A simple script which allows command line conversion of .csv files to the .xlsx format.
 # Note: Must be in the same folder as the .csv, output .xlsx file to the same folder.
 # Usage in CLI: >>> python csv2xlsx.py -i *CSV_FILE" -d *DELIMETER* -o *XLSX_FILE*
-
-
-
-"""
-
-TODO:
-
-    ***DONE*** Add date to converted file output
-    *   Make newfile default to filename if nothing entered for that argument
-    ***DONE*** Remove need for .csv extension in argument
-    ***DONE*** Add error logging
-    ***DONE*** Add checking for .csv/.xlsx in user input
-    *   Add convert all
-    *   Add .csv end checker
-"""
 
 import argparse  # For CLI functionality
 import xlsxwriter  # For writing to the .xlsx file format
